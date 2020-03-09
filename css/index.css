@@ -181,6 +181,13 @@ header nav a {
   padding: 5px;
   text-decoration: none;
 }
+@media (max-width:500px) {
+  header nav a {
+    margin: 1%;
+    padding: 2%;
+    justify-content: space-between;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -190,6 +197,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+html {
+  width: 94%;
 }
 html .home .intro h2 {
   padding: 15px;
