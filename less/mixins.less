@@ -1,1 +1,17 @@
 // Mixins Here
+.flex-spacing(@f,@d,@j,@c) {
+  display: @f;
+  flex-direction: @d;
+  justify-content: @j;
+  align-items: @c;
+}
+
+.button-mixins(@p,@btn-color,@font-color) {
+  padding: @p;
+  background: @btn-color;
+  color: @font-color;
+}
+.margin-gen() {
+  margin: 2%;
+  padding: 1%;
+}
